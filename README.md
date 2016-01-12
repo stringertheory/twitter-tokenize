@@ -7,8 +7,8 @@ pip install git+https://github.com/stringertheory/twitter-tokenize.git#egg=twitt
 
 and run with:
 ```python
-import tokenize
+import twokenize
 
-tokenize.tokens("Here's the thing: yo mama ;)")
+twokenize.tokens("Here's the thing: yo mama ;)")
 # [u'here', u"'s", u'the', u'thing', u':', u'yo', u'mama', u';)']
 ```
